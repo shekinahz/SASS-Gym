@@ -1,8 +1,7 @@
 @use '../abstract/' as *;
 
 .header{
-    @include  roundedContainer();
-    margin-bottom: 5rem;
+ 
     &__wrapper{
         font-family: "cd-regular";
         padding: 1rem 0;

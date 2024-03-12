@@ -6,8 +6,7 @@
  body{
     background-color: $clr-primary;
  }
- .round-1{
-    @include  roundedContainer();
+ 
 .banner{
     &__wrapper{
         margin-bottom: 5rem;
@@ -51,14 +50,12 @@
     }
     }
 }
- }
+ 
 
  .achieve {
-  @include roundedContainer($clr-secondary);
   margin-bottom: 20rem;
   padding: 5rem;
-  &__wrapper {
-  }
+
   &__info {
     color: $clr-white;
   }
@@ -133,8 +130,6 @@
     }
   }
   &__card {
-    @include roundedContainer($clr-secondary);
-    border-radius: 3rem;
     @include flex;
     .services--info {
       @include grid(2);

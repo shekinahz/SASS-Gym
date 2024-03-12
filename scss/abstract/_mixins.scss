@@ -4,16 +4,7 @@
     width: $wd;
     object-fit: cover;
 }
-
-@mixin roundedContainer($clr: $clr-light) {
-    max-width: 180rem;
-    padding: 0 1.6rem;
-    margin: 2rem auto;
-  
-    background-color: $clr;
-    border-radius: 7rem;
-  }
-  
+ 
 @mixin mediaQuery($width:$sm) {
     @media (min-width:$width){
         @content;
